@@ -14,15 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
-
       <body className={inter.className}>
         {/* <div>
-            <Link href="/produtos/calca">CALÇA</Link>
-            <Link href="/produtos/camisa">CAMISA</Link>
-            <Link href="/produtos/bone">BONE</Link>
-            <Link href="/produtos/sapato">SAPATO</Link>
-            <Link href="/produtos/oculos">OCULOS</Link>
+            <Link href="/pages/sobre">SOBRE</Link>
+            <Link href="/pages/ajuda">AJUDA</Link>
         </div> */}
         <Cabecalho />
 
