@@ -1,0 +1,28 @@
+/* CSS do footer */
+
+footer{
+    background-color: #002359;
+    width: 100%;
+    height: 20vh;
+   
+  }
+  .social-medias {
+    display: flex; /* Use display flex para centralizar os ícones horizontalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;;
+  }
+  
+  /* Estilos para os ícones individuais */
+  .social-media-logo {
+    margin: 0 10px; /* Adicione margem entre os ícones conforme necessário */
+    display: flex; /* Use display flex para centralizar os ícones horizontalmente */
+    padding: 5% 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-img{
+    width: 50%;
+    text-align: center;
+  }
+  
