@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import "../../../../styles/home.css"
 
 import Pessoa from "../../../assets/pessoa.svg"
 import Chamado from  "../../../assets/adicionar.svg"
@@ -12,42 +13,33 @@ export default function AbrirChamadoConfirmacao(){
     return(
         <>
         <main>
-            <div>
-                <h1>Olá {}</h1>
+            <div className="container-home-perfil">
+                <h1>Olá Mariana</h1>
                 <p>Bem vindo de volta</p>
             </div>
 
-            <div>
-                <div>
+            <div className="container-opcoes">
+                <div className="opcoes-perfil">
                     <Link href="#">
-                    <Image className="" src={Pessoa} alt="" />
+                    <Image className="img-icon-opcoes" src={Pessoa} alt="" />
                     <p>MEU PERFIL</p>
                     </Link>
                 </div>
-                <div>
+                <div className="opcoes-perfil">
                     <Link href="#">
-                    <Image className="" src={Chamado} alt="" />
-                    <p>ABRIR CHAMADO</p>
+                    <Image className="img-icon-opcoes" src={Chamado} alt="" />
+                    <div className="texto-opcoes">
+                        <p>ABRIR CHAMADO</p>
+                    </div>
                     </Link>
                 </div>
-                <div>
+                <div className="opcoes-perfil">
                     <Link href="#">
-                    <Image className="" src={Acompanhar} alt="" />
+                    <Image className="img-icon-opcoes" src={Acompanhar} alt="" />
                     <p>ACOMPANHAR</p>
                     </Link>
                 </div>
-                <div>
-                    <Link href="#">
-                    <Image className="" src={Veiculo} alt="" />
-                    <p>ACESSAR VEICULOS</p>
-                    </Link>
-                </div>
-                <div>
-                    <Link href="#">
-                    <Image className="" src={Cancelar} alt="" />
-                    <p>CANCELAR</p>
-                    </Link>
-                </div>
+                
             </div>
         </main>
         </>

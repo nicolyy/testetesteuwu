@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import "./rodape.css"
 
@@ -10,9 +11,9 @@ export default function Rodape() {
     return(
         <footer>
             <div className='social-medias'>
-                <a className='social-media-logo' href="#"> <Image className="footer-img" src={Facebook} alt="Logo do facebook"/></a>
-                <a className='social-media-logo' href="#"> <Image className="footer-img" src={Email} alt="Logo do e-mail"/></a>
-                <a className='social-media-logo' href="#"> <Image className="footer-img" src={Instagram} alt="Logo do Instagram"/></a>
+                <Link className='social-media-logo' href="#"> <Image className="footer-img" src={Facebook} alt="Logo do facebook"/></Link>
+                <Link className='social-media-logo' href="#"> <Image className="footer-img" src={Email} alt="Logo do e-mail"/></Link>
+                <Link className='social-media-logo' href="#"> <Image className="footer-img" src={Instagram} alt="Logo do Instagram"/></Link>
             </div>
         </footer>
     )
