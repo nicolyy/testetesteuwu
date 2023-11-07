@@ -48,6 +48,14 @@
 
 /* CSS das caixas de integrantes*/
 
+
+.time{
+    margin: 20% 0 0 0;
+}
+
+
+
+
 .container-integrantes{
     display: flex;
     flex-direction: row;
@@ -60,7 +68,7 @@
     background-color: #6494FF;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
     width: 30% ;
-    height: 60vh;
+    height: 80vh;
 
     display: flex;
     flex-direction: column;
@@ -72,7 +80,8 @@
 
 
 .integrante-img{
-    width: 60%;
+    width: 50%;
+    height: 90%;
     padding-bottom: 10%;
     align-items: center;
     text-align: center;
@@ -94,7 +103,7 @@
 }
 
 .sc-img{
-    width: 90%;
+    width: 40px;
 }
 
 .integrantes-conteudo{
@@ -106,7 +115,7 @@
     margin-bottom: 5%;
 }
 
-.integrante-titulo{
+.integrantes-titulo{
     font-family: 'roboto';
     
     color: #ffffff;
@@ -120,10 +129,11 @@
 
 strong{
     color: #002359;
+    font-weight: bold;
     
 }
 
-.integrante-texto{
+.integrantes-texto{
 
     font-family: 'roboto';
     
@@ -416,7 +426,7 @@ strong{
     }
 
 
-    .integrante-titulo{
+    .integrantes-titulo{
         font-family: 'roboto';
         
         color: #ffffff;
@@ -427,7 +437,7 @@ strong{
         padding: 10% 10% 0 10%;
     }
 
-    .integrante-texto{
+    .integrantes-texto{
 
         font-family: 'roboto';
         
@@ -438,8 +448,9 @@ strong{
     }
 
     .integrante-img{
-        width: 30%;
-        padding: 10%;
+        width: 50px;
+        height: 50px;
+        padding: 10% 0 0 0;
         align-items: center;
         text-align: center;
     }
@@ -464,5 +475,6 @@ strong{
 
        .sc-img{
         width: 30px;
+        height: 30px;
     }
 }
