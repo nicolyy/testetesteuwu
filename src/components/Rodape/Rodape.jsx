@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import "./rodape.css"
+import "./Rodape.css"
 
 import Facebook from '../../app/assets/facebook.png'
 import Instagram from '../../app/assets/instagram.png'

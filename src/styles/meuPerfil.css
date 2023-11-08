@@ -22,6 +22,7 @@
 .img-veiculo-chamado{
     width: 30%;
     height: 30%;
+    padding: 0 0 0 10% ;
 }
 
 
@@ -51,4 +52,24 @@
 .chamados-historico{
     margin: 5% 5% 5% 5%;
     padding-bottom: 5%;
+}
+
+@media screen and (max-width: 800px){
+   
+    .foto-perfil{
+        width: 30%;
+        height: 30%;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .perfil-nome{
+        font-size: 18px;
+        padding: 0 0 0 5%;
+    }
+
+    .perfil-email{
+        font-size: 12px;
+    }
 }

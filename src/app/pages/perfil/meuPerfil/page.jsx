@@ -14,84 +14,84 @@ export default function MeuPerfil(){
                 <div className="container-perfil">
                     <Image className="foto-perfil" src={FotoPerfil} />
                     <div>
-                        <h1>Mariana Peixoto</h1>
-                        <p>marianapeixoto@gmail.com</p>
+                        <h1 className="perfil-nome">Mariana Peixoto</h1>
+                        <p className="perfil-email">marianapeixoto@gmail.com</p>
                     </div> 
                 </div> 
 
                 <section className="container-veiculo">
                     <h1>Veiculo</h1>
-                    <Image className="img-veiculo-chamado" src={Veiculo}/>
+                    <Image className="img-veiculo-chamado" src={Veiculo} alt="Foto do Veiculo"/>
                         <div className="container-veiculo-propriedades">
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                              
                                 <p>Modelo</p>
                             </div>
                             <p>Civic 2.0 - SPORT - PRATA</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                                
                                 <p>Marca</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>Honda</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                             
                                 <p>Combustivel</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>Gasolina</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                               
                                 <p>Tipo</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>Automóvel</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                                
                                 <p>Categoria</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>Particular</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                               
                                 <p>Passageiros</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>Quatro</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                              
                                 <p>Espécie</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>Passageiro</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                               
                                 <p>Carroceria</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>Não</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                                
                                 <p>Endereço</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>Rua Alemã, 678, - Vila Prudente , SP</p>
                         </div>
                         <div className="veiculo-propriedade">
                             <div className="veiculo-nome-propriedade">
-                                <Image/>
+                                
                                 <p>Renavan</p>
                             </div>
-                            <p>Civic 2.0 - SPORT - PRATA</p>
+                            <p>000000</p>
                         </div>
                     </div>
                 </section>

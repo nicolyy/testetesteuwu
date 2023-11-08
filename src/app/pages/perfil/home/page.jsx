@@ -20,23 +20,23 @@ export default function AbrirChamadoConfirmacao(){
 
             <div className="container-opcoes">
                 <div className="opcoes-perfil">
-                    <Link href="#">
-                    <Image className="img-icon-opcoes" src={Pessoa} alt="" />
-                    <p>MEU PERFIL</p>
+                    <Link href="../perfil/meuPerfil">
+                    <Image className="img-icon-opcoes" src={Pessoa} alt="icone de Meu perfil" />
+                    <p className="chamado-opcao">MEU PERFIL</p>
                     </Link>
                 </div>
                 <div className="opcoes-perfil">
-                    <Link href="#">
-                    <Image className="img-icon-opcoes" src={Chamado} alt="" />
+                    <Link href="../perfil/abrirChamadoLocal">
+                    <Image className="img-icon-opcoes" src={Chamado} alt="icone formato adicao para abrir chamado" />
                     <div className="texto-opcoes">
-                        <p>ABRIR CHAMADO</p>
+                        <p className="chamado-opcao">ABRIR CHAMADO</p>
                     </div>
                     </Link>
                 </div>
                 <div className="opcoes-perfil">
                     <Link href="#">
-                    <Image className="img-icon-opcoes" src={Acompanhar} alt="" />
-                    <p>ACOMPANHAR</p>
+                    <Image className="img-icon-opcoes" src={Acompanhar} alt=" icone relogio para acompanhar o chamado" />
+                    <p className="chamado-opcao">ACOMPANHAR</p>
                     </Link>
                 </div>
                 
